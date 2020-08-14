@@ -18,6 +18,7 @@
 		A653F3DA24E10B3100F21AD8 /* HashableDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A653F3D824E10B3100F21AD8 /* HashableDemo.cpp */; };
 		A653F3DD24E10B3D00F21AD8 /* Demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A653F3DB24E10B3D00F21AD8 /* Demo.cpp */; };
 		A653F3E024E10E3400F21AD8 /* AsyncDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A653F3DE24E10E3400F21AD8 /* AsyncDemo.cpp */; };
+		A653F3EA24E11BE100F21AD8 /* QuickDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A653F3E824E11BE100F21AD8 /* QuickDemo.cpp */; };
 		A6CF27EC24DFE6F7009C3400 /* Cell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6CF27EA24DFE6F7009C3400 /* Cell.cpp */; };
 		A6CF27EF24E0532B009C3400 /* Hash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6CF27ED24E0532B009C3400 /* Hash.cpp */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,8 @@
 		A653F3DC24E10B3D00F21AD8 /* Demo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo.hpp; sourceTree = "<group>"; };
 		A653F3DE24E10E3400F21AD8 /* AsyncDemo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AsyncDemo.cpp; sourceTree = "<group>"; };
 		A653F3DF24E10E3400F21AD8 /* AsyncDemo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AsyncDemo.hpp; sourceTree = "<group>"; };
+		A653F3E824E11BE100F21AD8 /* QuickDemo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuickDemo.cpp; sourceTree = "<group>"; };
+		A653F3E924E11BE100F21AD8 /* QuickDemo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QuickDemo.hpp; sourceTree = "<group>"; };
 		A6CF27EA24DFE6F7009C3400 /* Cell.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cell.cpp; sourceTree = "<group>"; };
 		A6CF27EB24DFE6F7009C3400 /* Cell.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cell.hpp; sourceTree = "<group>"; };
 		A6CF27ED24E0532B009C3400 /* Hash.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Hash.cpp; sourceTree = "<group>"; };
@@ -105,18 +108,14 @@
 		A653F3CE24E10AEF00F21AD8 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				A653F3CF24E10B1100F21AD8 /* SampleDemo.cpp */,
-				A653F3D024E10B1100F21AD8 /* SampleDemo.hpp */,
-				A653F3D224E10B1E00F21AD8 /* GenericDemo.cpp */,
-				A653F3D324E10B1E00F21AD8 /* GenericDemo.hpp */,
-				A653F3D524E10B2800F21AD8 /* PolymorphismDemo.cpp */,
-				A653F3D624E10B2800F21AD8 /* PolymorphismDemo.hpp */,
-				A653F3D824E10B3100F21AD8 /* HashableDemo.cpp */,
-				A653F3D924E10B3100F21AD8 /* HashableDemo.hpp */,
 				A653F3DB24E10B3D00F21AD8 /* Demo.cpp */,
 				A653F3DC24E10B3D00F21AD8 /* Demo.hpp */,
-				A653F3DE24E10E3400F21AD8 /* AsyncDemo.cpp */,
-				A653F3DF24E10E3400F21AD8 /* AsyncDemo.hpp */,
+				A653F3E724E11BCF00F21AD8 /* QuickDemo */,
+				A653F3E624E11ABB00F21AD8 /* HashableDemo */,
+				A653F3E524E11AAF00F21AD8 /* PolymorphismDemo */,
+				A653F3E424E11AA100F21AD8 /* GenericDemo */,
+				A653F3E324E11A9500F21AD8 /* SampleDemo */,
+				A653F3E224E11A8A00F21AD8 /* AsyncDemo */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -136,6 +135,60 @@
 				A6CF27EE24E0532B009C3400 /* Hash.hpp */,
 			);
 			path = src;
+			sourceTree = "<group>";
+		};
+		A653F3E224E11A8A00F21AD8 /* AsyncDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A653F3DE24E10E3400F21AD8 /* AsyncDemo.cpp */,
+				A653F3DF24E10E3400F21AD8 /* AsyncDemo.hpp */,
+			);
+			path = AsyncDemo;
+			sourceTree = "<group>";
+		};
+		A653F3E324E11A9500F21AD8 /* SampleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A653F3CF24E10B1100F21AD8 /* SampleDemo.cpp */,
+				A653F3D024E10B1100F21AD8 /* SampleDemo.hpp */,
+			);
+			path = SampleDemo;
+			sourceTree = "<group>";
+		};
+		A653F3E424E11AA100F21AD8 /* GenericDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A653F3D224E10B1E00F21AD8 /* GenericDemo.cpp */,
+				A653F3D324E10B1E00F21AD8 /* GenericDemo.hpp */,
+			);
+			path = GenericDemo;
+			sourceTree = "<group>";
+		};
+		A653F3E524E11AAF00F21AD8 /* PolymorphismDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A653F3D524E10B2800F21AD8 /* PolymorphismDemo.cpp */,
+				A653F3D624E10B2800F21AD8 /* PolymorphismDemo.hpp */,
+			);
+			path = PolymorphismDemo;
+			sourceTree = "<group>";
+		};
+		A653F3E624E11ABB00F21AD8 /* HashableDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A653F3D824E10B3100F21AD8 /* HashableDemo.cpp */,
+				A653F3D924E10B3100F21AD8 /* HashableDemo.hpp */,
+			);
+			path = HashableDemo;
+			sourceTree = "<group>";
+		};
+		A653F3E724E11BCF00F21AD8 /* QuickDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A653F3E824E11BE100F21AD8 /* QuickDemo.cpp */,
+				A653F3E924E11BE100F21AD8 /* QuickDemo.hpp */,
+			);
+			path = QuickDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A653F3EA24E11BE100F21AD8 /* QuickDemo.cpp in Sources */,
 				A605F3A424DE930E0097C10E /* Animal.cpp in Sources */,
 				A6CF27EF24E0532B009C3400 /* Hash.cpp in Sources */,
 				A653F3D424E10B1E00F21AD8 /* GenericDemo.cpp in Sources */,
@@ -326,6 +380,7 @@
 		A605F39724DE88490097C10E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KZ29294K2F;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -336,6 +391,7 @@
 		A605F39824DE88490097C10E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KZ29294K2F;
 				ENABLE_HARDENED_RUNTIME = YES;

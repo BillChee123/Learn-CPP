@@ -19,23 +19,27 @@
 #include "PolymorphismDemo.hpp"
 #include "HashableDemo.hpp"
 #include "AsyncDemo.hpp"
+#include "QuickDemo.hpp"
 
 using namespace N;
 
 
 void Solution::run() {
-    SampleDemo sampleDemo;
-    sampleDemo.runDemo();
+//    SampleDemo sampleDemo;
+//    sampleDemo.runDemo();
 
-    GenericDemo genericDemo;
-    genericDemo.runDemo();
-
-    PolymorphismDemo polymorphismDemo;
-    polymorphismDemo.runDemo();
-
-    HashableDemo hashableDemo;
-    hashableDemo.runDemo();
+//    GenericDemo genericDemo;
+//    genericDemo.runDemo();
+//
+//    PolymorphismDemo polymorphismDemo;
+//    polymorphismDemo.runDemo();
+//
+//    HashableDemo hashableDemo;
+//    hashableDemo.runDemo();
 
     AsyncDemo asyncDemo;
     asyncDemo.runDemo();
+
+    QuickDemo quickDemo;
+    quickDemo.runDemo();
 }
